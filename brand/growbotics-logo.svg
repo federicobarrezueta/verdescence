@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none" stroke="#2F5A2F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="'Space Grotesk', 'Inter', sans-serif">
+  <!-- Mark -->
+  <g transform="translate(8, 8) scale(1)">
+    <path d="M14 50 H30" />
+    <path d="M22 50 V44" />
+    <circle cx="22" cy="42" r="1.6" fill="#2F5A2F" stroke="none" />
+    <path d="M22 42 L34 30" />
+    <path d="M34 30 L40 36" />
+    <circle cx="34" cy="30" r="1.6" fill="#2F5A2F" stroke="none" />
+    <path d="M40 36 l-1.5 2.5 l3 0 z" fill="#2F5A2F" stroke="none" />
+    <path d="M40.5 40 c0 0.8 -1.5 0.8 -1.5 0 c0 -1 1.5 -2 1.5 -3 c0 1 1.5 2 1.5 3 z" fill="#2F5A2F" stroke="none" opacity="0.85" />
+    <path d="M16 54 H48" opacity="0.4" />
+    <path d="M32 54 V40" />
+    <path d="M32 47 C28 47 25 45 24 41 C28 40 31 42 32 45 Z" />
+    <path d="M32 45 C36 45 39 43 40 39 C36 38 33 40 32 43 Z" />
+    <path d="M32 41 C30.5 39.5 30 38 30.8 37" />
+  </g>
+  <!-- Wordmark -->
+  <text x="80" y="50" font-size="26" font-weight="600" letter-spacing="-0.5" fill="#2F5A2F" stroke="none">growbotics</text>
+</svg>

@@ -1,0 +1,28 @@
+---
+import Logo from './Logo.astro';
+
+const links = [
+  { href: '#problem', label: 'Problem' },
+  { href: '#solution', label: 'Solution' },
+  { href: '#approach', label: 'Approach' },
+  { href: '#about', label: 'About' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-ink/5 bg-cream/80 backdrop-blur-md">
+  <div class="container-content flex h-16 items-center justify-between">
+    <a href="#top" class="flex items-center text-botanic" aria-label="Growbotics home">
+      <Logo showWordmark={true} />
+    </a>
+
+    <nav class="hidden items-center gap-8 md:flex">
+      {links.map((l) => (
+        <a href={l.href} class="text-sm font-medium text-ink-500 transition-colors hover:text-botanic">
+          {l.label}
+        </a>
+      ))}
+    </nav>
+
+    <a href="#contact" class="btn-primary">Talk to us</a>
+  </div>
+</header>

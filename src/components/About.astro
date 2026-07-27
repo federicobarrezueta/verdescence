@@ -1,0 +1,55 @@
+---
+const values = [
+  {
+    title: 'Built for the grower',
+    body: 'Useful first, novel second. We design around what farmers actually need, not what looks good in a demo.',
+  },
+  {
+    title: 'Respect the land',
+    body: "Automation that works with the crop and the soil — not against them. Sustainability isn't a slide, it's a constraint.",
+  },
+  {
+    title: 'Ownership of the hard problems',
+    body: 'We do the unglamorous work of making Physical AI reliable outdoors, in the mud, at scale.',
+  },
+];
+---
+
+<section id="about" class="section">
+  <div class="container-content">
+    <div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
+      <div>
+        <p class="eyebrow mb-4">About</p>
+        <h2 class="text-3xl font-semibold sm:text-4xl">
+          A team building for the people who feed us.
+        </h2>
+        <p class="mt-6 text-lg text-ink-500">
+          Growbotics is bringing Physical AI to agriculture — starting with the
+          work that's hardest to staff and hardest to automate. We're a young
+          company with an old commitment: make tools that earn their place on
+          the farm.
+        </p>
+
+        {/* Founder / team placeholder block */}
+        <div class="mt-10 flex items-center gap-4 rounded-2xl border border-ink/5 bg-cream-200/50 p-5">
+          <div class="h-12 w-12 shrink-0 rounded-full bg-botanic/15 text-botanic flex items-center justify-center font-display font-semibold">
+            G
+          </div>
+          <p class="text-sm text-ink-500">
+            <span class="font-semibold text-ink">Federico</span> · Founder.
+            Team bios and photos to follow.
+          </p>
+        </div>
+      </div>
+
+      <ul class="grid gap-4">
+        {values.map((v) => (
+          <li class="rounded-2xl border border-ink/5 bg-cream p-6 sm:p-8">
+            <h3 class="font-display text-lg font-semibold text-botanic">{v.title}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-500">{v.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

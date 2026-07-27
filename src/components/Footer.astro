@@ -1,0 +1,28 @@
+---
+import Logo from './Logo.astro';
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-ink/5 bg-cream">
+  <div class="container-content py-14">
+    <div class="flex flex-col items-start justify-between gap-8 sm:flex-row sm:items-center">
+      <div class="flex flex-col items-start gap-2 text-botanic">
+        <Logo showWordmark={true} />
+        <p class="text-sm text-ink-400">Physical AI for agriculture.</p>
+      </div>
+
+      <nav class="flex flex-wrap gap-x-8 gap-y-3 text-sm">
+        <a href="#problem" class="text-ink-500 transition-colors hover:text-botanic">Problem</a>
+        <a href="#solution" class="text-ink-500 transition-colors hover:text-botanic">Solution</a>
+        <a href="#approach" class="text-ink-500 transition-colors hover:text-botanic">Approach</a>
+        <a href="#about" class="text-ink-500 transition-colors hover:text-botanic">About</a>
+        <a href="#contact" class="text-ink-500 transition-colors hover:text-botanic">Contact</a>
+      </nav>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-2 text-xs text-ink-400 sm:flex-row sm:items-center sm:justify-between">
+      <p>© {year} Growbotics. All rights reserved.</p>
+      <p>Domain pending — growboticslabs.com</p>
+    </div>
+  </div>
+</footer>

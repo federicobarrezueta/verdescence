@@ -1,0 +1,42 @@
+---
+const steps = [
+  {
+    n: '01',
+    title: 'Sense',
+    body: 'The robot perceives its environment — crop rows, obstacles, and task state — using on-board sensors and computer vision.',
+  },
+  {
+    n: '02',
+    title: 'Decide',
+    body: 'Physical AI reasons about what it sees, plans the next action, and adapts in the moment as field conditions change.',
+  },
+  {
+    n: '03',
+    title: 'Act',
+    body: 'The robot executes the task — physically manipulating the crop — safely, repeatably, and at the pace the field demands.',
+  },
+];
+---
+
+<section id="approach" class="section bg-botanic text-cream">
+  <div class="container-content">
+    <div class="max-w-2xl">
+      <p class="eyebrow mb-4 text-clay-400">How it works</p>
+      <h2 class="text-3xl font-semibold sm:text-4xl">Sense. Decide. Act.</h2>
+      <p class="mt-6 text-lg text-cream/80">
+        A closed-loop cycle running in the field, in real time — perception feeds
+        reasoning, reasoning commands action, action informs the next observation.
+      </p>
+    </div>
+
+    <ol class="mt-16 grid gap-px overflow-hidden rounded-2xl bg-cream/10 md:grid-cols-3">
+      {steps.map((s) => (
+        <li class="bg-botanic-700/40 p-8 sm:p-10">
+          <span class="font-display text-sm font-semibold text-clay-400">{s.n}</span>
+          <h3 class="mt-4 font-display text-2xl font-semibold">{s.title}</h3>
+          <p class="mt-3 text-sm leading-relaxed text-cream/80">{s.body}</p>
+        </li>
+      ))}
+    </ol>
+  </div>
+</section>

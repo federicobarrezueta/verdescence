@@ -1,0 +1,80 @@
+---
+// Create a free Formspree account (https://formspree.io) and replace the
+// endpoint below with your own form ID (e.g. "https://formspree.io/f/abcdwxyz").
+const FORMSPREE_ENDPOINT = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT ?? '';
+---
+
+<section id="contact" class="section bg-cream-200/50">
+  <div class="container-content">
+    <div class="mx-auto max-w-2xl">
+      <p class="eyebrow mb-4 text-center">Get in touch</p>
+      <h2 class="text-center text-3xl font-semibold sm:text-4xl">Let's talk.</h2>
+      <p class="mx-auto mt-6 max-w-lg text-center text-lg text-ink-500">
+        Whether you're a grower facing a staffing gap or an investor backing the
+        future of farm labour — we'd like to hear from you.
+      </p>
+
+      <form
+        action={FORMSPREE_ENDPOINT || '#'}
+        method="POST"
+        class="mt-12 grid gap-5 rounded-3xl border border-ink/5 bg-cream p-6 sm:p-10 sm:grid-cols-2"
+      >
+        <div class="sm:col-span-1">
+          <label for="name" class="mb-1.5 block text-sm font-medium">Name</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            class="w-full rounded-xl border border-ink/10 bg-cream-50 px-4 py-3 text-sm outline-none transition-colors focus:border-botanic"
+            placeholder="Your name"
+          />
+        </div>
+
+        <div class="sm:col-span-1">
+          <label for="role" class="mb-1.5 block text-sm font-medium">Role</label>
+          <input
+            id="role"
+            name="role"
+            type="text"
+            class="w-full rounded-xl border border-ink/10 bg-cream-50 px-4 py-3 text-sm outline-none transition-colors focus:border-botanic"
+            placeholder="Grower / Investor / Partner"
+          />
+        </div>
+
+        <div class="sm:col-span-2">
+          <label for="email" class="mb-1.5 block text-sm font-medium">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            class="w-full rounded-xl border border-ink/10 bg-cream-50 px-4 py-3 text-sm outline-none transition-colors focus:border-botanic"
+            placeholder="you@farm.com"
+          />
+        </div>
+
+        <div class="sm:col-span-2">
+          <label for="message" class="mb-1.5 block text-sm font-medium">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            class="w-full resize-none rounded-xl border border-ink/10 bg-cream-50 px-4 py-3 text-sm outline-none transition-colors focus:border-botanic"
+            placeholder="What would you like to talk about?"
+          ></textarea>
+        </div>
+
+        <div class="sm:col-span-2">
+          <button type="submit" class="btn-primary w-full sm:w-auto">Send message</button>
+        </div>
+
+        {!FORMSPREE_ENDPOINT && (
+          <p class="sm:col-span-2 text-xs text-ink-400">
+            Form not yet wired — add a Formspree endpoint to enable submissions.
+          </p>
+        )}
+      </form>
+    </div>
+  </div>
+</section>

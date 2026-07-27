@@ -1,0 +1,46 @@
+---
+const capabilities = [
+  {
+    title: 'Sensing',
+    body: 'On-board perception reads the crop, the soil, and the task at hand — built for the messiness of real fields.',
+  },
+  {
+    title: 'Reasoning',
+    body: 'Physical AI decides what to do next — adapting to conditions, growth stage, and variability row by row.',
+  },
+  {
+    title: 'Acting',
+    body: 'Robots that do the physical work — planting, tending, harvesting — reliably and repeatably.',
+  },
+];
+---
+
+<section id="solution" class="section bg-cream-200/50">
+  <div class="container-content">
+    <div class="grid gap-12 lg:grid-cols-2 lg:gap-20">
+      <div>
+        <p class="eyebrow mb-4">The solution</p>
+        <h2 class="text-3xl font-semibold sm:text-4xl">
+          Robots that work the field, trained to the crop.
+        </h2>
+        <p class="mt-6 text-lg text-ink-500">
+          Growbotics brings Physical AI out of the lab and into the row —
+          autonomous machines that sense, decide, and act in the open field.
+          Built to the crop, not the other way around.
+        </p>
+        <a href="#approach" class="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-botanic">
+          How it works →
+        </a>
+      </div>
+
+      <ul class="grid gap-4">
+        {capabilities.map((c) => (
+          <li class="rounded-2xl border border-ink/5 bg-cream p-6 sm:p-8">
+            <h3 class="font-display text-xl font-semibold text-botanic">{c.title}</h3>
+            <p class="mt-3 text-sm leading-relaxed text-ink-500">{c.body}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
