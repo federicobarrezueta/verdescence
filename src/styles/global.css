@@ -44,7 +44,7 @@
   }
 
   .eyebrow {
-    @apply text-xs font-semibold uppercase tracking-[0.2em] text-clay;
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-sage-600;
   }
 
   .section {

@@ -1,12 +1,12 @@
-# Growbotics — Marketing Site
+# Verdescence — Marketing Site
 
-Physical AI for agriculture. Built with Astro + Tailwind CSS.
+Green automation & robot farmers for agriculture. Built with Astro + Tailwind CSS.
 
 ## Stack
 
 - **Astro** — static site framework (zero JS shipped by default)
 - **Tailwind CSS** — styling, with custom palette tokens
-- **Fonts** — Space Grotesk (display) + Inter (body) via Google Fonts
+- **Fonts** — Space Grotesk (display) + Inter (body) + Fraunces (serif accent) via Google Fonts
 - **Forms** — Formspree (no backend)
 - **Deploy** — Vercel (recommended)
 
@@ -50,29 +50,28 @@ Defined in `tailwind.config.mjs`:
 
 | Token | Value | Use |
 |---|---|---|
-| `botanic` | `#2F5A2F` | primary, plants |
-| `clay` | `#C66B3D` | warm accent, CTAs |
-| `cream` | `#F5F1E8` | background |
-| `ink` | `#1A1A1A` | text |
+| `botanic` | `#2A6E3E` | primary green (richer emerald) |
+| `sage` | `#7A9B7E` | secondary accent (muted green) |
+| `cream` | `#F4F6F0` | background (cool, hint of green) |
+| `ink` | `#1A2418` | text (green-tinted black) |
 
-Fonts: `font-display` (Space Grotesk), `font-sans` (Inter).
+Fonts: `font-display` (Space Grotesk), `font-sans` (Inter), `font-serif` (Fraunces).
 
 ## Deploy to Vercel
 
 1. Push this repo to GitHub.
-2. In Vercel, **Add New → Project**, import the GitHub repo.
+2. In Vercel, **Add New -> Project**, import the GitHub repo.
 3. Framework preset: **Astro** (auto-detected). Build command `npm run build`, output dir `dist`.
-4. Add the `PUBLIC_FORMSPREE_ENDPOINT` env var under **Settings → Environment Variables**.
+4. Add the `PUBLIC_FORMSPREE_ENDPOINT` env var under **Settings -> Environment Variables**.
 5. Deploy. Vercel gives you a staging URL immediately.
-6. Once your domain is registered (`growbotics.ai` recommended), in Vercel go to
-   **Settings → Domains → Add**, then point your registrar's DNS:
-   - Add a `CNAME` record `@ → cname.vercel-dns.com` (or use the A record Vercel shows)
-   - Add a `CNAME` record `www → cname.vercel-dns.com`
+6. Once your domain is registered (`verdescence.com`), in Vercel go to
+   **Settings -> Domains -> Add**, then point your registrar's DNS:
+   - Add a `CNAME` record `@ -> cname.vercel-dns.com` (or use the A record Vercel shows)
+   - Add a `CNAME` record `www -> cname.vercel-dns.com`
 7. Verify Vercel issues the TLS certificate automatically.
 
 ## Domain
 
-**Primary pick:** `growboticslabs.com` (verified available in the .com zone).
-Also grab `growboticslab.com` if you want it as a parked redirect.
-Registrars: Porkbun, Namecheap, or Cloudflare Registrar. Other TLDs
-(`.ai`, `.io`, `.co`) for the bare `growbotics` name were already taken at time of writing.
+**Primary:** `verdescence.com` (verified available via Verisign RDAP).
+Also check `verdescence.ai` (no DNS records at time of writing — likely available).
+Registrars: Porkbun, Namecheap, or Cloudflare Registrar.

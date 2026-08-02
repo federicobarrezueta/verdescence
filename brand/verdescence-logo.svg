@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" fill="none" stroke="#2A6E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" font-family="'Space Grotesk', 'Inter', sans-serif">
+  <!-- Mark -->
+  <g transform="translate(8, 16)">
+    <path d="M24 40 V20" />
+    <path d="M24 28 C20 28 16 24 14 18 C19 16 23 19 24 24 Z" />
+    <path d="M24 24 C28 24 32 20 34 14 C29 12 25 15 24 20 Z" />
+    <path d="M14 40 H34" opacity="0.3" />
+  </g>
+  <!-- Wordmark -->
+  <text x="80" y="52" font-size="26" font-weight="600" letter-spacing="-0.5" fill="#2A6E3E" stroke="none">verdescence</text>
+</svg>

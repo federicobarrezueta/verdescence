@@ -6,50 +6,28 @@ interface Props {
 const { class: className = '', showWordmark = true } = Astro.props;
 ---
 
-<span class={`inline-flex flex-col items-center gap-1 ${className}`}>
+<span class={`inline-flex flex-col items-center gap-1.5 ${className}`}>
+  {/* Placeholder mark — replace with final logo design */}
   <svg
-    viewBox="0 0 64 64"
+    viewBox="0 0 48 48"
     fill="none"
     stroke="currentColor"
-    stroke-width="2.5"
+    stroke-width="2"
     stroke-linecap="round"
     stroke-linejoin="round"
-    class="h-9 w-9"
+    class="h-8 w-8"
     role="img"
-    aria-label="Growbotics — robot arm watering a growing plant"
+    aria-label="Verdescence mark"
   >
-    {/* Base mount */}
-    <path d="M14 50 H30" />
-    <path d="M22 50 V44" />
-
-    {/* Robot arm — shoulder joint */}
-    <circle cx="22" cy="42" r="1.6" fill="currentColor" stroke="none" />
-    {/* Upper arm segment, angled over the plant */}
-    <path d="M22 42 L34 30" />
-    {/* Forearm segment, reaching down toward plant */}
-    <path d="M34 30 L40 36" />
-    {/* Elbow joint */}
-    <circle cx="34" cy="30" r="1.6" fill="currentColor" stroke="none" />
-    {/* Nozzle/spay head */}
-    <path d="M40 36 l-1.5 2.5 l3 0 z" fill="currentColor" stroke="none" />
-
-    {/* Water droplet falling from nozzle toward the plant */}
-    <path d="M40.5 40 c0 0.8 -1.5 0.8 -1.5 0 c0 -1 1.5 -2 1.5 -3 c0 1 1.5 2 1.5 3 z" fill="currentColor" stroke="none" opacity="0.85" />
-
-    {/* Plant — soil line */}
-    <path d="M16 54 H48" opacity="0.4" />
-    {/* Main stem, upright shoot */}
-    <path d="M32 54 V40" />
-    {/* Two leaves, healthy and growing */}
-    <path d="M32 47 C28 47 25 45 24 41 C28 40 31 42 32 45 Z" />
-    <path d="M32 45 C36 45 39 43 40 39 C36 38 33 40 32 43 Z" />
-    {/* Small new shoot tip at top */}
-    <path d="M32 41 C30.5 39.5 30 38 30.8 37" />
+    <path d="M24 40 V20" />
+    <path d="M24 28 C20 28 16 24 14 18 C19 16 23 19 24 24 Z" />
+    <path d="M24 24 C28 24 32 20 34 14 C29 12 25 15 24 20 Z" />
+    <path d="M14 40 H34" opacity="0.3" />
   </svg>
 
   {showWordmark && (
-    <span class="font-display text-lg font-semibold tracking-tight lowercase">
-      growbotics
+    <span class="font-display text-base font-semibold tracking-tight lowercase">
+      verdescence
     </span>
   )}
 </span>
