@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1600mm"
+   height="500mm"
+   viewBox="0 0 1600 500"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="verdescence-logo_slogan.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.1303986"
+     inkscape:cx="2300.6381"
+     inkscape:cy="924.08965"
+     inkscape:window-width="1685"
+     inkscape:window-height="1376"
+     inkscape:window-x="3675"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="201.30585"
+       y="395.90149"
+       width="532.79068"
+       height="110.85796"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.201064,-86.3595)">
+    <g
+       id="g4"
+       transform="matrix(8.3950021,0,0,8.3950021,-73.30078,-577.14257)">
+      <g
+         id="g3">
+        <path
+           style="display:inline;fill:#2f6b3f;fill-opacity:1;stroke-width:0.391739;stroke-dasharray:none;paint-order:stroke fill markers"
+           d="m 28.341367,131.36756 c 0,0 -2.781387,-20.40523 -5.593241,-24.92291 -2.811073,-4.51644 -6.463665,-3.52093 -6.463665,-3.52093 -0.845217,0.48829 4.938671,10.86448 8.099995,18.02331 4.404814,9.9747 3.956911,10.42053 3.956911,10.42053 z"
+           id="path8-0"
+           inkscape:transform-center-x="1.0394413"
+           inkscape:transform-center-y="2.8308767"
+           sodipodi:nodetypes="cscsc" />
+        <path
+           style="display:inline;fill:#5aab6a;fill-opacity:1;stroke-width:0.253372"
+           d="m 28.061291,133.96039 c 0,0 0.437229,-14.8612 10.221372,-31.26433 7.169765,-12.020121 8.601642,-16.060308 8.593736,-16.027202 0,0 0.664251,-1.873632 -9.77251,3.601122 -14.377352,7.541842 -9.042598,43.69041 -9.042598,43.69041 z"
+           id="path6"
+           sodipodi:nodetypes="cscsc" />
+        <path
+           style="display:inline;fill:#392c1f;fill-opacity:1;stroke-width:0.192633"
+           d="m 18.35961,133.76048 19.272738,0.16075 c 0,0 -0.0046,-2.22957 -9.58329,-2.30996 -9.578666,-0.0804 -9.689448,2.14921 -9.689448,2.14921 z"
+           id="path12"
+           sodipodi:nodetypes="cccc" />
+        <path
+           style="display:inline;fill:#a2bf7f;fill-opacity:1;stroke-width:0.122548"
+           d="m 26.760447,117.41244 c 0,0 0.776026,0.81276 -0.34365,4.65612 -1.000127,3.43302 1.183109,3.05002 0.804606,3.79564 0,0 0.598632,-1.03574 0.644732,-1.1107 1.950714,-3.1719 -1.105695,-7.34106 -1.105695,-7.34106 z"
+           id="path6-3"
+           sodipodi:nodetypes="cscscc"
+           inkscape:transform-center-x="1.5354512"
+           inkscape:transform-center-y="0.41024066" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(2.3429151,0,0,2.3429151,-122.43947,-665.43847)"
+       id="text1"
+       style="font-size:74.0815px;font-family:manrope;-inkscape-font-specification:manrope;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#213326;fill-opacity:1;stroke-width:1.16787;paint-order:stroke fill markers"><tspan
+         x="201.30664"
+         y="462.9743"
+         id="tspan4"><tspan
+           style="font-weight:600;-inkscape-font-specification:'manrope Semi-Bold'"
+           id="tspan2">VERDESCENCE</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:74.9733px;font-family:manrope;-inkscape-font-specification:manrope;writing-mode:lr-tb;direction:ltr;fill:#213326;fill-opacity:1;stroke-width:2.73622;paint-order:stroke fill markers"
+       x="456.89249"
+       y="487.83362"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-size:74.9733px;stroke-width:2.73623"
+         x="456.89249"
+         y="487.83362" /></text>
+  </g>
+</svg>

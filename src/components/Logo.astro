@@ -6,27 +6,16 @@ interface Props {
 const { class: className = '', showWordmark = true } = Astro.props;
 ---
 
-<span class={`inline-flex flex-col items-center gap-1.5 ${className}`}>
-  {/* Placeholder mark — replace with final logo design */}
-  <svg
-    viewBox="0 0 48 48"
-    fill="none"
-    stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    class="h-8 w-8"
-    role="img"
-    aria-label="Verdescence mark"
-  >
-    <path d="M24 40 V20" />
-    <path d="M24 28 C20 28 16 24 14 18 C19 16 23 19 24 24 Z" />
-    <path d="M24 24 C28 24 32 20 34 14 C29 12 25 15 24 20 Z" />
-    <path d="M14 40 H34" opacity="0.3" />
-  </svg>
+<span class={`inline-flex flex-col items-center gap-1 ${className}`}>
+  <img
+    src="/verdescence-mark.svg"
+    alt="Verdescence mark"
+    class="h-8 w-auto"
+    loading="eager"
+  />
 
   {showWordmark && (
-    <span class="font-display text-base font-semibold tracking-tight lowercase">
+    <span class="font-display text-sm font-semibold tracking-tight lowercase leading-none">
       verdescence
     </span>
   )}

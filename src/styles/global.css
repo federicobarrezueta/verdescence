@@ -36,7 +36,7 @@
   }
 
   .btn-primary {
-    @apply btn bg-botanic text-cream hover:bg-botanic-600;
+    @apply btn bg-botanic text-cream hover:bg-accent-600;
   }
 
   .btn-secondary {
@@ -44,7 +44,7 @@
   }
 
   .eyebrow {
-    @apply text-xs font-semibold uppercase tracking-[0.2em] text-sage-600;
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-botanic-400;
   }
 
   .section {
